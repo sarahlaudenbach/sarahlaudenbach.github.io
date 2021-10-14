@@ -1,0 +1,112 @@
+body{font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(to bottom right, #FEF9EF, #e4b08d);
+}
+    #header1{
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px;
+        background-color: #f1a0ad6c;
+    }
+    h1{ color: rgb(105, 59, 28);
+        font-size: 3em;
+    }
+    h2{color: #FE6D73;
+        text-decoration-line: underline;
+    }
+    #h22{
+        color: #FEF9EF;
+        text-decoration-line: underline;
+    }
+    #h23{
+        color: #FE6D73;
+    }
+    div{
+        padding: 2.5%;
+        margin: 2.5%;
+    }
+    img{
+        width:50%;
+        height:auto;
+        margin: 2.5%;
+        border-radius: 10px;
+        float: right;
+        position: relative;
+    }
+    a{
+        color: lavender;
+    }
+    p{
+        font-size: larger;
+    }
+    li{
+        color: #565554;
+        font-size: larger;
+    }
+    #li2{
+        color: #FEF9EF;
+    }
+    #one{
+        border-radius: 15px 50px;
+        margin-top: 2.5%;
+        color: white;
+        background-color: #FE6D73;
+        height: 15%;
+        width: 35%;
+        float: left;
+    }
+    #two{
+        height: 15%;
+        width: 35%;
+        float: left;
+        
+    }
+    #three{
+        border-radius: 15px 50px;
+        background-color: #FE6D73;
+        height: 15%;
+        width: 35%;
+        float: left;
+    }
+    #four{
+        height: 15%;
+        width: 35%;
+        float: left;
+    }
+
+/* unvisited link */
+a:link {
+    color: lavenderblush;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: lavender;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:#95cee2f6;
+  }
+
+    /*-------Media Queries-------*/
+    /*Desktop*/
+    @media only screen and (max-width: 1430px){
+        
+    }
+    /*Mobile*/
+    @media only screen and (max-width: 425px)
+    {
+        #one{
+            border-radius: 15px 50px; color: white; background-color: #FE6D73; height: 15%; width: 94%; float: none; margin: 2px;
+        }
+        img{
+            width:94%; height:auto; border-radius: 10px; position: relative;}
+        #two{
+            height: 15%; width: 94%;}
+        #three{
+            border-radius: 15px 50px; background-color: #FE6D73; height: 15%; width: 94%; margin: 2px;
+            }
+        #four{
+            height: 15%; width: 94%;
+            }
+    }
